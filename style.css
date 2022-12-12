@@ -1,0 +1,618 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+  border: none;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 8rem;
+}
+h1, h2, h3, h4, h5, h6, a{
+  font-weight: 700;
+}
+a{
+  font-size: 14px;
+}
+p{
+  font-weight: 400;
+}
+section{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 2rem;
+  padding-bottom: 0;
+}
+section h6{
+  font-size: 14px;
+  color: #FF6551;
+}
+section h2{
+  font-size: 40px;
+  color: #252B42;
+  padding: 10px 0;
+}
+section p{
+  font-size: 14px;
+  color: #737373;
+}
+header .header .container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+header{
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+header .header .container div .logo{
+  display: block;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+header .header .container ul{
+  display: flex;
+  align-items: center;
+  gap: 21px;
+}
+header .header .container ul li{
+  list-style: none;
+}
+header .header .container ul li a{
+  font-size: 14px;
+  color: #fff;
+}
+header .header .container .header_btn a:nth-child(1), header .header .container .header_btn a{
+  margin-right: 45px;
+  color: #fff;
+}
+header .header .container .header_btn a.btn{
+  padding: 15px 25px;
+  background: #FF6551;
+  border-radius: 5px;
+}
+header .header .container .header_btn a.btn i{
+  margin-left: 15px;
+}
+#menu{
+  color: #fff;
+  font-size: 4rem;
+  display: none;
+  cursor: pointer;
+}
+div#home{
+  background-color: #FFC652;
+}
+div#home section.home{
+  padding-top: 8rem;
+}
+div#home section.home .container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+div#home section.home .container .text{
+  flex: 573px;
+}
+div#home section.home .container .text h1{
+  font-size: 58px;
+  color: #fff;
+}
+div#home section.home .container .text h4{
+  font-size: 20px;
+  font-weight: 400;
+  max-width: 450px;
+  color: #fff;
+  margin: 30px 0;
+}
+div#home section.home .container .text .home_btn a:nth-child(1){
+  padding: 15px 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #FF6551;
+}
+div#home section.home .container .text .home_btn a:nth-child(2){
+  padding: 15px 40px;
+  border-radius: 5px;
+  border: 1px solid #ECECEC;
+  color: #fff;
+}
+div#home section.home .container .images{
+  flex: 573px;
+}
+div#home section.home .container .image img {
+  width: 100%;
+  margin-bottom: -2px;
+}
+.client, .courses, .teacher{
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+section .text_container{
+  max-width: 691px;
+  text-align: center;
+  margin: 0 auto;
+}
+.client .container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  gap: 30px;
+}
+.client .container .box{
+  text-align: center;
+}
+.client .container .box .box_content{
+  padding: 35px 40px;
+  box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+  max-width: 234px;
+}
+.client .container .box .box_content i{
+  font-size: 32px;
+  padding: 22px 20.5px 18px 19.5px;
+  background: #2435A1;
+  color: #fff;
+  border-radius: 200px;
+}
+.client .container .box .box_content h5{
+  font-size: 16px;
+  color: #252B42;
+  padding: 20px 0;
+}
+.client .container .box .box_content .line{
+  width: 50px;
+  height: 2px;
+  background: #E74040;
+  margin: 0 auto;
+}
+.client .container .box .box_content p{
+  font-size: 14px;
+  color: #737373;
+  padding-top: 20px;
+}
+
+.courses .video{
+  position: relative;
+  max-width: 688px;
+  margin: 0 auto;
+  padding-top: 80px;
+}
+.courses .video img{
+  width: 100%;
+  border-radius: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.courses .video .icon {
+  position: absolute;
+  z-index: 1;
+  left: 45%;
+  top: 45%;
+}
+.courses .video .icon i{
+  padding: 34.8px 36.8px;
+  color: #fff;
+  background: #FF6551;
+  border-radius: 73.6px;
+  font-size: 19px;
+}
+.teacher .container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+.teacher .container .text_box{
+  flex: 507px;
+}
+.teacher .container .image_box{
+  flex: 537px;
+  text-align: center;
+}
+.teacher .container .image_box img{
+  max-width: 513px;
+}
+.teacher .container .text_box .line{
+  width: 94px;
+  height: 7px;
+  background: #E74040;
+}
+.teacher .container .text_box p
+h2{
+  padding: 35px 0;
+}
+.teacher .container .text_box p{
+  padding: 35px 0;
+}
+.teacher .container .text_box .btn{
+  color: #FF6551;
+}
+.teacher .container .text_box .btn i{
+  padding-left: 10px;
+}
+div.pricing{
+  background: #26335D;
+}
+section.pricing{
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+section.pricing .text_container h6{
+  color: #2435A1;
+}
+section.pricing .text_container h2, section.pricing .text_container p{
+  color: #FFFFFF;
+}
+section.pricing .container{
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+section.pricing .container .box{
+  max-width: 348px;
+  background: #FFFFFF;
+}
+section.pricing .container .box .image{
+  position: relative;
+}
+section.pricing .container .box .image img{
+  width: 100%;
+}
+section.pricing .container .box .image span{
+  font-weight: 700;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 0px 10px;
+  background: #E74040;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+}
+section.pricing .container .box .image .icon{
+  position: absolute;
+  bottom: 1.5rem;
+  left: 10rem;
+}
+section.pricing .container .box .image .icon i{
+  font-size: 20px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 44.7857px;
+  margin-right: 10px;
+}
+section.pricing .container .box .content{
+  padding: 25px 25px 35px;
+}
+section.pricing .container .box .content span{
+  font-weight: 700;
+  font-size: 14px;
+  color: #FF6551;
+}
+section.pricing .container .box .content h5{
+  font-size: 16px;
+  color: #252B42;
+  padding: 10px 0;
+}
+section.pricing .container .box .content p{
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+section.pricing .container .box .content div{
+  font-weight: 700;
+  font-size: 14px;
+  color: #737373;
+}
+section.pricing .container .box .content div i{
+  padding-right: 10px;
+}
+section.pricing .container .box .content h5.price{
+  font-size: 16px;
+  color: #BDBDBD;
+}
+section.pricing .container .box .content h5.price span{
+  color: #2435A1;
+  padding: 10px 0;
+}
+section.pricing .container .box .content .btn{
+  padding: 10px 20px;
+  border: 1px solid #FF6551;
+  border-radius: 37px;
+  color: #FF6551;
+  display: inline-block;
+}
+section.reviews{
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.reviews .container{
+  padding-top: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.reviews .container .box{
+  flex: 501px;
+  text-align: center;
+}
+.reviews .container .box .box_content .image img{
+  border-radius: 200px;
+}
+.reviews .container .box .box_content .text{
+  padding: 30px;
+  max-width: 451px;
+  margin: 0 auto;
+}
+.reviews .container .box .box_content .text p{
+  font-size: 14px;
+  color: #737373;
+}
+.reviews .container .box .box_content .text .star i{
+  font-size: 18.34px;
+  color: #F3CD03;
+  margin-right: 5px;
+  padding: 15px 0;
+}
+.reviews .container .box .box_content .text h5{
+  font-size: 16px;
+  color: #252B42;
+}
+.reviews .container .box .box_content .text h6{
+  font-size: 14px;
+  color: #737373;
+  padding-top: 15px;
+}
+
+.newsletter{
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.newsletter .container{
+  max-width: 691px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 10px;
+}
+.newsletter .container h3{
+  font-size: 40px;
+  color: #252B42;
+}
+.newsletter .container p{
+  font-size: 14px;
+  color: #737373;
+}
+.newsletter form{
+  padding-top: 80px;
+  max-width: 688px;
+  margin: 0 auto;
+}
+.newsletter form input#email{
+  width: 80%;
+  background: #F9F9F9;
+  border: 1px solid #E6E6E6;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #737373;
+}
+.newsletter form input.btn{
+  background: #FF6551;
+  border: 1px solid #E6E6E6;
+  border-radius: 0px 5px 5px 0px;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding: 15px 22.5px;
+  margin-left: -10px;
+}
+footer{
+  background: #26335D;
+  padding: 2rem;
+}
+footer .container{
+  max-width: 1050px;
+  padding: 50px 0;
+  margin: 0 auto;
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+footer .container .box h5{
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-bottom: 20px;
+}
+footer .container .box ul{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+footer .container .box ul li{
+  list-style: none;
+}
+footer .container .box ul li a{
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+footer .container .box ul li a i{
+  margin-right: 10px;
+}
+
+.credit{
+  max-width: 1050px;
+  margin: 0 auto;
+  color: #737373;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 25px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+.credit .icon i{
+  color: #FF6551;
+  font-size: 24px;
+  margin-right: 20px;
+}
+.credit .icon i:nth-child(3){
+  margin: 0;
+}
+
+
+
+
+
+
+
+@media(max-width:991px){
+  html{
+    font-size: 55%;
+  }
+  .teacher .container .image_box{
+    text-align: center;
+  }
+  .teacher .container .image_box{
+    text-align: center;
+  }
+  .client, .courses, .teacher, section.pricing, section.reviews, .newsletter{
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+  .client .container, .courses .video ,section.pricing .container, .reviews .container, .newsletter form{
+    padding-top: 60px;
+  }
+}
+@media(max-width:768px){
+  #menu{
+    display: inline-block;
+  }
+  header .header .container ul li{
+    display: block;
+    padding: 1rem 0;
+    border: 0.1rem solid #fff;
+    margin: 0.5rem;
+    border-radius: 0.5rem;
+  }
+  header .header .container ul li a{
+    padding-left: 0.5rem;
+  }
+  header .header .container .header_btn{
+    display: none;
+  }
+  header .header .container ul{
+    display: block;
+    position: absolute;
+    left: 0rem;
+    top: 4rem;
+    width: 100%;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  }
+  header .header .container ul.active{
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    background: #FFC652;
+  }
+  .teacher .container .image_box{
+    text-align: center;
+  }
+  .client, .courses, .teacher, section.pricing, section.reviews, .newsletter{
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .client .container, .courses .video ,section.pricing .container, .reviews .container, .newsletter form{
+    padding-top: 55px;
+  }
+}
+@media(max-width:600px){
+  .teacher .container .image_box img{
+    width: 100%;
+  }
+  .newsletter form{
+    text-align: center;
+  }
+  .newsletter form input#email{
+    width: 100%;
+  }
+  .newsletter form input.btn{
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .client, .courses, .teacher, section.pricing, section.reviews, .newsletter{
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .client .container, .courses .video ,section.pricing .container, .reviews .container, .newsletter form{
+    padding-top: 50px;
+  }
+  .courses .video .icon i {
+    padding: 24.8px 26.8px;
+}
+  .credit{
+    gap: 30px;
+    justify-content: center;
+    padding: 1rem;
+    text-align: center;
+  }
+}
+@media(max-width:450px){
+  html{
+    font-size: 50%;
+  }
+  div#home section.home .container .text .home_btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .client, .courses, .teacher, section.pricing, section.reviews, .newsletter{
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .client .container, .courses .video ,section.pricing .container, .reviews .container, .newsletter form{
+    padding-top: 40px;
+  }
+  .courses .video .icon i {
+    padding: 24.8px 26.8px;
+}
+.teacher .container .image_box img{
+  width: 100%;
+}
+.newsletter form{
+  text-align: center;
+}
+.newsletter form input#email{
+  width: 100%;
+}
+.newsletter form input.btn{
+  border-radius: 5px;
+  margin-left: 0;
+  margin-top: 10px;
+}
+}
